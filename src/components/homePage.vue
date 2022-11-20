@@ -1,5 +1,6 @@
 <template>
   <div class="homepage">
+    <img src="../assets/logo-baruku.jpg" alt="" />
     <h1>Welcome to My persnoal website</h1>
   </div>
 </template>
@@ -11,9 +12,29 @@ export default {
 </script>
 
 <style>
+:root {
+  --bgcolor1: #373339;
+  --bgcolor2: #49444b;
+  --fontcolor: white;
+}
+
 .homepage {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: var(--fontcolor);
 }
 </style>

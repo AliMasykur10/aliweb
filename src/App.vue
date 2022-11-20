@@ -2,6 +2,7 @@
   <div id="app">
     <navBar />
     <homePage />
+    <aboutPage />
   </div>
 </template>
 
@@ -9,6 +10,7 @@
 // import HelloWorld from "./components/HelloWorld.vue";
 import homePage from "./components/homePage.vue";
 import navBar from "./components/navBar.vue";
+import aboutPage from "./components/aboutPage.vue";
 
 export default {
   name: "App",
@@ -16,11 +18,9 @@ export default {
     // HelloWorld,
     homePage,
     navBar,
+    aboutPage,
   },
 };
 </script>
 
-<style>
-#app {
-}
-</style>
+<style></style>
