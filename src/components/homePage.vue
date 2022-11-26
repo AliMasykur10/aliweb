@@ -1,7 +1,7 @@
 <template>
   <div class="homepage">
-    <img src="../assets/logo-baruku.jpg" alt="" />
-    <h1>Welcome to My persnoal website</h1>
+    <img src="../assets/logo-baruku.jpg" alt="" id="mylogo" />
+    <h1>Welcome to My Personal Website</h1>
   </div>
 </template>
 
@@ -27,7 +27,7 @@ export default {
   align-items: center;
 }
 
-img {
+img#mylogo {
   width: 250px;
   border-radius: 50%;
   margin-bottom: 2rem;
