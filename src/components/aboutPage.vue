@@ -22,7 +22,7 @@ export default {
 
 <style>
 .about-page {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: var(--bgcolor2);
   display: flex;
