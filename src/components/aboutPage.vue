@@ -18,19 +18,9 @@
 export default {
   name: "aboutPage",
 };
-
-// fetch("data.json")
-//   .then((res) => res.json())
-//   .then((json) => console.log(json));
 </script>
 
 <style>
-/* :root {
-  --bgcolor1: #373339;
-  --bgcolor2: #49444b;
-  --fontcolor: white;
-} */
-
 .about-page {
   width: 100%;
   height: 100vh;

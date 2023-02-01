@@ -16,12 +16,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --bgcolor1: #373339;
-  --bgcolor2: #49444b;
-  --fontcolor: white;
-}
-
 * {
   box-sizing: border-box;
 }

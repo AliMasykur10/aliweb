@@ -28,12 +28,6 @@ export default {
 </script>
 
 <style>
-/* :root {
-  --bgcolor1: #373339;
-  --bgcolor2: #49444b;
-  --fontcolor: white;
-} */
-
 .project-page {
   width: 100%;
   height: 100vh;
