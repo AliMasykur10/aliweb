@@ -1,7 +1,7 @@
 <template>
-  <div class="homepage">
-    <img src="../assets/logo-baruku.jpg" alt="" id="mylogo" />
-    <h1>Welcome to My Personal Website</h1>
+  <div class="homepage" id="home-page">
+    <img src="../assets/logo-baruku.jpg" alt="" id="mylogo" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
+    <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">Welcome to My Personal Website</h1>
   </div>
 </template>
 
@@ -12,12 +12,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --bgcolor1: #373339;
-  --bgcolor2: #49444b;
-  --fontcolor: white;
-}
-
 .homepage {
   width: 100%;
   height: 100vh;

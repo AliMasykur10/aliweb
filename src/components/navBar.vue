@@ -1,10 +1,10 @@
 <template>
-  <div class="navbar">
+  <div class="navbar" data-aos="fade-down" data-aos-duration="500" data-aos-delay="1300">
     <ul>
-      <li><a href="">HOME</a></li>
-      <li><a href="">ABOUT</a></li>
-      <li><a href="">PROJECT</a></li>
-      <li><a href="">CONTACT</a></li>
+      <li><a href="#home-page">HOME</a></li>
+      <li><a href="#about-page">ABOUT</a></li>
+      <li><a href="#project-page">PROJECT</a></li>
+      <li><a href="#contact-page">CONTACT</a></li>
     </ul>
   </div>
 </template>
@@ -30,16 +30,17 @@ li {
   list-style: none;
   margin-left: 3rem;
 }
-a {
+.navbar a {
   text-decoration: none;
   color: var(--fontcolor);
   padding: 0.5rem;
   border-radius: 5px;
 }
 
-a:hover {
+.navbar a:hover {
   color: var(--bgcolor1);
   background-color: var(--fontcolor);
+  transition: 0.5s;
 }
 
 .navbar {

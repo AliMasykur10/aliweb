@@ -1,14 +1,15 @@
 <template>
-  <div class="about-page">
-    <img src="../assets/myphoto.jpg" alt="" id="myphoto" />
-    <div class="identities">
+  <div class="about-page" id="about-page">
+    <img src="../assets/myphoto.jpg" alt="" id="myphoto" data-aos="fade-up" />
+    <div class="identities" data-aos="fade-up" data-aos-delay="100">
       <h3>Hello Dear,</h3>
       <p>
         My name is Ali, I'm a freelancer web developer, content creator, and design graphic. I live in Indonesia a beautifull country. I have 2 year experience being web developer focusing on front end developer. I also have 3 years
         experience being a design graphic
       </p>
-      <input type="button" id="cv-download" value="DOWNLOAD CV" />
-      <!-- <button id="cv-download">DOWNLOAD CV</button> -->
+      <a href="#" target="_blank">
+        <input type="button" id="cv-download" value="DOWNLOAD CV" />
+      </a>
     </div>
   </div>
 </template>
@@ -17,6 +18,10 @@
 export default {
   name: "aboutPage",
 };
+
+// fetch("data.json")
+//   .then((res) => res.json())
+//   .then((json) => console.log(json));
 </script>
 
 <style>
@@ -63,6 +68,12 @@ export default {
   font-size: 20px;
 }
 
+.identities a {
+  width: 120px;
+  height: 120px;
+  background-color: aquamarine;
+}
+
 #cv-download {
   margin-top: 3rem;
   padding: 0.5rem;
@@ -72,5 +83,10 @@ export default {
   border: none;
   cursor: pointer;
   letter-spacing: 1px;
+}
+
+#cv-download:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 </style>
