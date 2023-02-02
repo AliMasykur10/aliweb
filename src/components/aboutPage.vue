@@ -79,4 +79,34 @@ export default {
   transform: scale(1.05);
   transition: 0.3s;
 }
+/* 
+@media only screen and (max-width: 600px) {
+  .about-page {
+    flex-direction: column;
+  }
+
+  .identities {
+    width: 100vw;
+    padding: 1.5rem;
+  }
+
+  #myphoto {
+    width: 50vw;
+    border-right: none;
+    border-bottom: 2px solid var(--fontcolor);
+    margin: 1rem;
+    padding-right: 0;
+    padding-bottom: 1.5rem;
+  }
+  .identities h3 {
+    font-size: 15px;
+  }
+  .identities p {
+    font-size: 15px;
+  }
+  #cv-download {
+    font-size: 15px;
+    margin-top: 2rem;
+  }
+} */
 </style>

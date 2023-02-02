@@ -29,7 +29,7 @@ export default {
 
 <style>
 .project-page {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -60,4 +60,18 @@ export default {
   margin-bottom: 2rem;
   font-size: 30px;
 }
+
+/* @media only screen and (max-width: 600px) {
+  .project-page {
+    flex-direction: column;
+  }
+  .content {
+    width: 40vw;
+    height: 30vw;
+  }
+
+  .list-project h3 {
+    font-size: 20px;
+  }
+} */
 </style>

@@ -13,7 +13,7 @@ export default {
 
 <style>
 .homepage {
-  width: 100%;
+  width: 100v;
   height: 100vh;
   display: flex;
   flex-direction: column;

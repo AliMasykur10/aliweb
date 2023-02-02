@@ -16,11 +16,7 @@ export default {
 </script>
 
 <style>
-* {
-  box-sizing: border-box;
-}
-
-li {
+.navbar li {
   list-style: none;
   margin-left: 3rem;
 }
@@ -38,8 +34,8 @@ li {
 }
 
 .navbar {
-  width: 100%;
-  padding: 0.5rem;
+  width: 100vw;
+  padding: 1rem;
   font-family: sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
@@ -56,4 +52,20 @@ li {
   justify-content: end;
   margin-right: 1rem;
 }
+/* 
+@media only screen and (max-width: 600px) {
+  .navbar {
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
+    font-weight: 300;
+  }
+
+  .navbar ul {
+    padding: 0.5rem;
+  }
+
+  .navbar li {
+    margin-left: 1rem;
+  }
+} */
 </style>

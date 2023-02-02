@@ -55,7 +55,7 @@ export default {
 
 <style>
 .contact-page {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: var(--bgcolor2);
   display: flex;
@@ -98,4 +98,22 @@ export default {
   transform: scale(1.05);
   transition: 0.3s;
 }
+/* 
+@media only screen and (max-width: 600px) {
+  .social-media {
+    width: 100vw;
+  }
+
+  .card {
+    margin: 0.5rem;
+  }
+  .card img {
+    width: 25vw;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  .social-media h2 {
+    font-size: 10px;
+  }
+} */
 </style>
