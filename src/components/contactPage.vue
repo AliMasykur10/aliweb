@@ -8,7 +8,7 @@
         </a>
       </div>
       <div class="card" data-aos="zoom-out" data-aos-delay="100">
-        <h2>Facebook</h2>
+        <h2>Facebook</h2>clear
         <a href="https://www.facebook.com/alyfounder.messy/" target="_blank" rel="noopener noreferrer">
           <img src="../assets/facebook.svg" alt="facebook" />
         </a>

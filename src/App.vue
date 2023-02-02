@@ -3,8 +3,6 @@
     <navBar />
     <homePage />
     <aboutPage />
-    <projectPage />
-    <contactPage />
   </div>
 </template>
 
@@ -13,8 +11,6 @@
 import homePage from "./components/homePage.vue";
 import navBar from "./components/navBar.vue";
 import aboutPage from "./components/aboutPage.vue";
-import projectPage from "./components/projectPage.vue";
-import contactPage from "./components/contactPage.vue";
 
 export default {
   name: "App",
@@ -23,8 +19,6 @@ export default {
     homePage,
     navBar,
     aboutPage,
-    projectPage,
-    contactPage,
   },
 };
 </script>
