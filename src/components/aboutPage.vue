@@ -79,7 +79,7 @@ export default {
   transform: scale(1.05);
   transition: 0.3s;
 }
-/* 
+
 @media only screen and (max-width: 600px) {
   .about-page {
     flex-direction: column;
@@ -87,7 +87,7 @@ export default {
 
   .identities {
     width: 100vw;
-    padding: 1.5rem;
+    padding: 3rem;
   }
 
   #myphoto {
@@ -100,13 +100,16 @@ export default {
   }
   .identities h3 {
     font-size: 15px;
+    margin-bottom: 1rem;
   }
   .identities p {
-    font-size: 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 25px;
   }
   #cv-download {
     font-size: 15px;
     margin-top: 2rem;
   }
-} */
+}
 </style>

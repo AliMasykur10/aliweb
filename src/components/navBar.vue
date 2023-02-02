@@ -52,20 +52,21 @@ export default {
   justify-content: end;
   margin-right: 1rem;
 }
-/* 
+
 @media only screen and (max-width: 600px) {
   .navbar {
-    font-size: 0.7rem;
+    font-size: 13px;
     margin-right: 0.5rem;
     font-weight: 300;
   }
 
   .navbar ul {
     padding: 0.5rem;
+    justify-content: center;
   }
 
   .navbar li {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
-} */
+}
 </style>

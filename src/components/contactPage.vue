@@ -98,7 +98,7 @@ export default {
   transform: scale(1.05);
   transition: 0.3s;
 }
-/* 
+
 @media only screen and (max-width: 600px) {
   .social-media {
     width: 100vw;
@@ -115,5 +115,5 @@ export default {
   .social-media h2 {
     font-size: 10px;
   }
-} */
+}
 </style>

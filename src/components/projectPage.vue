@@ -61,7 +61,7 @@ export default {
   font-size: 30px;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .project-page {
     flex-direction: column;
   }
@@ -70,8 +70,13 @@ export default {
     height: 30vw;
   }
 
+  .list-project {
+    margin: 0.5rem;
+  }
+
   .list-project h3 {
     font-size: 20px;
+    margin-block: 1rem;
   }
-} */
+}
 </style>

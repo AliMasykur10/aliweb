@@ -30,5 +30,16 @@ img#mylogo {
 h1 {
   font-family: sans-serif;
   color: var(--fontcolor);
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    width: 70vw;
+    font-size: 30px;
+  }
+  img#mylogo {
+    width: 50vw;
+  }
 }
 </style>
