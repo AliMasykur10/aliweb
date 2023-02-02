@@ -38,7 +38,7 @@ li {
 }
 
 .navbar {
-  width: 100%;
+  width: 100vw;
   padding: 0.5rem;
   font-family: sans-serif;
   font-size: 1.3rem;
