@@ -55,7 +55,7 @@ export default {
 
 @media only screen and (max-width: 767px) {
   .navbar {
-    font-size: 13px;
+    font-size: 7px;
     margin-right: 0.5rem;
     font-weight: 300;
   }
@@ -72,7 +72,7 @@ export default {
 
 @media only screen and (max-width: 992px) {
   .navbar {
-    font-size: 18px;
+    font-size: 0.8em;
   }
 }
 </style>
