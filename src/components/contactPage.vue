@@ -99,7 +99,7 @@ export default {
   transition: 0.3s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .social-media {
     width: 100vw;
   }

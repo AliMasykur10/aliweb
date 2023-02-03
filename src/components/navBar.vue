@@ -53,7 +53,7 @@ export default {
   margin-right: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .navbar {
     font-size: 13px;
     margin-right: 0.5rem;
@@ -68,5 +68,8 @@ export default {
   .navbar li {
     margin-left: 0.5rem;
   }
+}
+
+@media only screen and (max-width: 1250px) {
 }
 </style>
