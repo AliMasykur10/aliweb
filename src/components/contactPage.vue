@@ -76,6 +76,7 @@ export default {
   color: var(--fontcolor);
   font-family: sans-serif;
   letter-spacing: 3px;
+  font-size: 30px;
 }
 
 .card {
@@ -83,11 +84,11 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: 3rem;
 }
 
 .card img {
-  width: 180px;
+  width: 10vw;
   margin-top: 2rem;
   padding: 0.3rem;
   background-color: var(--fontcolor);
@@ -114,6 +115,37 @@ export default {
   }
   .social-media h2 {
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .social-media {
+    width: 100vw;
+  }
+  .card {
+    margin: 0.5rem;
+  }
+  .card img {
+    width: 15vw;
+  }
+
+  .social-media h2 {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .social-media {
+    width: 100vw;
+  }
+  .card {
+    margin: 1rem;
+  }
+  .card img {
+    width: 15vw;
+  }
+
+  .social-media h2 {
+    font-size: 1.3rem;
   }
 }
 </style>

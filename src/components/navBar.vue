@@ -70,6 +70,9 @@ export default {
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 992px) {
+  .navbar {
+    font-size: 18px;
+  }
 }
 </style>

@@ -37,13 +37,13 @@ export default {
 }
 
 .list-project {
-  margin: 2rem;
+  margin: 3rem;
   text-align: center;
 }
 
 .content {
-  width: 300px;
-  height: 350px;
+  width: 23vw;
+  height: 25vw;
   background-color: var(--fontcolor);
   border-radius: 5px;
 }
@@ -58,7 +58,7 @@ export default {
   font-weight: 400;
   color: var(--fontcolor);
   margin-bottom: 2rem;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -76,6 +76,27 @@ export default {
 
   .list-project h3 {
     font-size: 20px;
+    margin-block: 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .content {
+    width: 20vw;
+    height: 20vw;
+  }
+  .list-project h3 {
+    font-size: 1.5rem;
+    margin-block: 1rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .content {
+    width: 20vw;
+    height: 20vw;
+  }
+  .list-project h3 {
+    font-size: 1.5rem;
     margin-block: 1rem;
   }
 }

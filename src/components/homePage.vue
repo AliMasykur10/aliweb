@@ -22,7 +22,7 @@ export default {
 }
 
 img#mylogo {
-  width: 250px;
+  width: 350px;
   border-radius: 50%;
   margin-bottom: 2rem;
 }
@@ -31,6 +31,7 @@ h1 {
   font-family: sans-serif;
   color: var(--fontcolor);
   text-align: center;
+  font-size: 50px;
 }
 
 @media only screen and (max-width: 767px) {

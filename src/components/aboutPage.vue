@@ -31,7 +31,7 @@ export default {
 }
 
 #myphoto {
-  width: 350px;
+  width: 500px;
   padding-right: 3rem;
   margin-right: 3rem;
   border-right: 2px solid var(--fontcolor);
@@ -80,7 +80,7 @@ export default {
   transition: 0.3s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .about-page {
     flex-direction: column;
   }
@@ -91,7 +91,7 @@ export default {
   }
 
   #myphoto {
-    width: 50vw;
+    width: 70vw;
     border-right: none;
     border-bottom: 2px solid var(--fontcolor);
     margin: 1rem;
@@ -103,13 +103,43 @@ export default {
     margin-bottom: 1rem;
   }
   .identities p {
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 3rem;
     line-height: 25px;
   }
   #cv-download {
     font-size: 15px;
     margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about-page {
+    width: 100vw;
+    padding: 3rem;
+  }
+
+  #myphoto {
+    width: 30vw;
+  }
+
+  .identities h3,
+  .identities p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-page {
+    width: 100vw;
+    padding: 3rem;
+  }
+
+  #myphoto {
+    width: 30vw;
+  }
+
+  .identities h3,
+  .identities p {
+    font-size: 1rem;
   }
 }
 </style>
