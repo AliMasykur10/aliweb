@@ -53,9 +53,15 @@ export default {
   margin-right: 1rem;
 }
 
+@media only screen and (max-width: 992px) {
+  .navbar {
+    font-size: 1.5em;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .navbar {
-    font-size: 7px;
+    font-size: 0.8em;
     margin-right: 0.5rem;
     font-weight: 300;
   }
@@ -70,9 +76,15 @@ export default {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media screen and (max-width: 300px) {
   .navbar {
-    font-size: 0.8em;
+    font-size: 0.5em;
+  }
+  .navbar ul {
+    padding: 0.2rem;
+  }
+  .navbar li {
+    margin-left: 0.2rem;
   }
 }
 </style>

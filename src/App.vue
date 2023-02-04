@@ -9,7 +9,6 @@
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
 import homePage from "./components/homePage.vue";
 import navBar from "./components/navBar.vue";
 import aboutPage from "./components/aboutPage.vue";

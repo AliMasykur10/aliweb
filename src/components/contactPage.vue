@@ -100,6 +100,38 @@ export default {
   transition: 0.3s;
 }
 
+@media only screen and (max-width: 1200px) {
+  .social-media {
+    width: 70vw;
+  }
+  .card {
+    margin: 1rem;
+  }
+  .card img {
+    width: 10vw;
+  }
+
+  .social-media h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .social-media {
+    width: 100vw;
+  }
+  .card {
+    margin: 1rem;
+  }
+  .card img {
+    width: 20vw;
+  }
+
+  .social-media h2 {
+    font-size: 1.3rem;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .social-media {
     width: 100vw;
@@ -118,34 +150,18 @@ export default {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .social-media {
-    width: 100vw;
-  }
-  .card {
-    margin: 0.5rem;
-  }
-  .card img {
-    width: 15vw;
-  }
-
+@media screen and (max-width: 550px) {
   .social-media h2 {
-    font-size: 1.3rem;
+    font-size: 1em;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .social-media {
-    width: 100vw;
-  }
-  .card {
-    margin: 1rem;
-  }
-  .card img {
-    width: 15vw;
-  }
 
+@media screen and (max-width: 300px) {
+  .social-media {
+    width: 80vw;
+  }
   .social-media h2 {
-    font-size: 1.3rem;
+    font-size: 0.7em;
   }
 }
 </style>

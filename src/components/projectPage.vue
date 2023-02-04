@@ -61,35 +61,6 @@ export default {
   font-size: 35px;
 }
 
-@media only screen and (max-width: 767px) {
-  .project-page {
-    flex-direction: column;
-  }
-  .content {
-    width: 40vw;
-    height: 30vw;
-  }
-
-  .list-project {
-    margin: 0.5rem;
-  }
-
-  .list-project h3 {
-    font-size: 20px;
-    margin-block: 1rem;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .content {
-    width: 20vw;
-    height: 20vw;
-  }
-  .list-project h3 {
-    font-size: 1.5rem;
-    margin-block: 1rem;
-  }
-}
 @media only screen and (max-width: 1200px) {
   .content {
     width: 20vw;
@@ -98,6 +69,62 @@ export default {
   .list-project h3 {
     font-size: 1.5rem;
     margin-block: 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .project-page {
+    flex-direction: column;
+  }
+  .content {
+    width: 40vw;
+    height: 30vw;
+  }
+  .list-project {
+    margin: 0.5rem;
+  }
+  .list-project h3 {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .project-page {
+    flex-direction: column;
+  }
+  .content {
+    width: 50vw;
+    height: 35vw;
+  }
+
+  .list-project {
+    margin: 0.5rem;
+  }
+
+  .list-project h3 {
+    font-size: 1em;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .content {
+    width: 40vw;
+    height: 25vw;
+  }
+  .list-project h3 {
+    font-size: 1.4em;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .content {
+    width: 50vw;
+  }
+  .list-project h3 {
+    font-size: 1em;
   }
 }
 </style>

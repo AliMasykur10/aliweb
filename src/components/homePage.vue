@@ -33,14 +33,36 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  img#mylogo {
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    width: 70vw;
+    font-size: 3em;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   h1 {
     width: 70vw;
-    font-size: 30px;
+    font-size: 1.5em;
   }
   img#mylogo {
     width: 50vw;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 1.3em;
   }
 }
 </style>

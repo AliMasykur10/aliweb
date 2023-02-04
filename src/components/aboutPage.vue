@@ -80,53 +80,6 @@ export default {
   transition: 0.3s;
 }
 
-@media only screen and (max-width: 767px) {
-  .about-page {
-    flex-direction: column;
-  }
-
-  .identities {
-    width: 100vw;
-    padding: 3rem;
-  }
-
-  #myphoto {
-    width: 70vw;
-    border-right: none;
-    border-bottom: 2px solid var(--fontcolor);
-    margin: 1rem;
-    padding-right: 0;
-    padding-bottom: 1.5rem;
-  }
-  .identities h3 {
-    font-size: 15px;
-    margin-bottom: 1rem;
-  }
-  .identities p {
-    font-size: 3rem;
-    line-height: 25px;
-  }
-  #cv-download {
-    font-size: 15px;
-    margin-top: 2rem;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .about-page {
-    width: 100vw;
-    padding: 3rem;
-  }
-
-  #myphoto {
-    width: 30vw;
-  }
-
-  .identities h3,
-  .identities p {
-    font-size: 1rem;
-  }
-}
 @media only screen and (max-width: 1200px) {
   .about-page {
     width: 100vw;
@@ -140,6 +93,60 @@ export default {
   .identities h3,
   .identities p {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about-page {
+    width: 100vw;
+    padding: 3rem;
+    flex-direction: column;
+  }
+
+  #myphoto {
+    width: 50vw;
+    border-right: none;
+    border-bottom: 2px solid var(--fontcolor);
+    margin: 1rem;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+
+  .identities h3,
+  .identities p {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-page {
+    flex-direction: column;
+  }
+
+  .identities {
+    width: 100vw;
+    padding: 2rem 3rem;
+  }
+
+  #myphoto {
+    width: 50vw;
+    border-right: none;
+    border-bottom: 2px solid var(--fontcolor);
+    margin: 1rem;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+  .identities h3 {
+    font-size: 1em;
+    margin-bottom: 0.7rem;
+  }
+  .identities p {
+    font-size: 0.8em;
+    line-height: 25px;
+  }
+  #cv-download {
+    font-size: 15px;
+    margin-top: 2rem;
   }
 }
 </style>
