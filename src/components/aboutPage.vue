@@ -21,20 +21,58 @@ export default {
 </script>
 
 <style>
-:root {
-  --bgcolor1: #373339;
-  --bgcolor2: #49444b;
-  --fontcolor: white;
-}
-
 .about-page {
   width: 100vw;
   height: 100vh;
   background-color: var(--bgcolor2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-h {
+#myphoto {
+  width: 500px;
+  padding-right: 3rem;
+  margin-right: 3rem;
+  border-right: 2px solid var(--fontcolor);
+}
+
+.identities {
+  width: 700px;
+}
+
+.identities h3 {
+  font-family: sans-serif;
+  font-weight: 400;
   color: var(--fontcolor);
+  margin-bottom: 2rem;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.identities p {
+  color: var(--fontcolor);
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.identities a {
+  width: 120px;
+  height: 120px;
+  background-color: aquamarine;
+}
+
+#cv-download {
+  margin-top: 3rem;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
 }
 
 #cv-download:hover {
