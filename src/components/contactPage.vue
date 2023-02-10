@@ -8,7 +8,11 @@
         </a>
       </div>
       <div class="card" data-aos="zoom-out" data-aos-delay="100">
+<<<<<<< HEAD
         <h2>Facebook</h2>clear
+=======
+        <h2>Facebook</h2>
+>>>>>>> responsive2.1
         <a href="https://www.facebook.com/alyfounder.messy/" target="_blank" rel="noopener noreferrer">
           <img src="../assets/facebook.svg" alt="facebook" />
         </a>
@@ -55,12 +59,121 @@ export default {
 
 <style>
 .contact-page {
+<<<<<<< HEAD
   width: 100v;
+=======
+  width: 100vw;
+>>>>>>> responsive2.1
   height: 100vh;
   background-color: var(--bgcolor2);
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+=======
+}
+
+.social-media {
+  width: 80%;
+  height: auto;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-media h2 {
+  color: var(--fontcolor);
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.card img {
+  width: 10vw;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  background-color: var(--fontcolor);
+  border-radius: 20px;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 1200px) {
+  .social-media {
+    width: 70vw;
+  }
+  .card {
+    margin: 1rem;
+  }
+  .card img {
+    width: 10vw;
+  }
+
+  .social-media h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .social-media {
+    width: 100vw;
+  }
+  .card {
+    margin: 1rem;
+  }
+  .card img {
+    width: 20vw;
+  }
+
+  .social-media h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .social-media {
+    width: 100vw;
+  }
+
+  .card {
+    margin: 0.5rem;
+  }
+  .card img {
+    width: 25vw;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  .social-media h2 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .social-media h2 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .social-media {
+    width: 80vw;
+  }
+  .social-media h2 {
+    font-size: 0.7em;
+  }
+>>>>>>> responsive2.1
 }
 
 .social-media {

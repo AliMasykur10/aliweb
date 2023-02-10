@@ -1,10 +1,10 @@
 <template>
-  <div class="navbar">
+  <div class="navbar" data-aos="fade-down" data-aos-duration="500" data-aos-delay="1300">
     <ul>
-      <li><a href="">HOME</a></li>
-      <li><a href="">ABOUT</a></li>
-      <li><a href="">PROJECT</a></li>
-      <li><a href="">CONTACT</a></li>
+      <li><a href="#home-page">HOME</a></li>
+      <li><a href="#about-page">ABOUT</a></li>
+      <li><a href="#project-page">PROJECT</a></li>
+      <li><a href="#contact-page">CONTACT</a></li>
     </ul>
   </div>
 </template>
@@ -16,35 +16,26 @@ export default {
 </script>
 
 <style>
-:root {
-  --bgcolor1: #373339;
-  --bgcolor2: #49444b;
-  --fontcolor: white;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-li {
+.navbar li {
   list-style: none;
   margin-left: 3rem;
 }
-a {
+.navbar a {
   text-decoration: none;
   color: var(--fontcolor);
   padding: 0.5rem;
   border-radius: 5px;
 }
 
-a:hover {
+.navbar a:hover {
   color: var(--bgcolor1);
   background-color: var(--fontcolor);
+  transition: 0.5s;
 }
 
 .navbar {
-  width: 100%;
-  padding: 0.5rem;
+  width: 100vw;
+  padding: 1rem;
   font-family: sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
@@ -60,5 +51,40 @@ a:hover {
   padding: 2rem;
   justify-content: end;
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    font-size: 0.8em;
+    margin-right: 0.5rem;
+    font-weight: 300;
+  }
+
+  .navbar ul {
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .navbar {
+    font-size: 0.5em;
+  }
+  .navbar ul {
+    padding: 0.2rem;
+  }
+  .navbar li {
+    margin-left: 0.2rem;
+  }
 }
 </style>
