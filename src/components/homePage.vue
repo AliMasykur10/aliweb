@@ -1,7 +1,7 @@
 <template>
   <div class="homepage" id="home-page">
     <img src="../assets/logo-baruku.jpg" alt="" id="mylogo" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
-    <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">Welcome to My Personal Website</h1>
+    <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800" v-rellax="{ speed: 2 }">Welcome to My Personal Website</h1>
   </div>
 </template>
 
