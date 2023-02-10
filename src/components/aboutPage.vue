@@ -60,7 +60,7 @@ h {
 
 @media only screen and (max-width: 992px) {
   .about-page {
-    width: 100vw;gi
+    width: 100vw;
     padding: 3rem;
     flex-direction: column;
   }

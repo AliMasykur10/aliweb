@@ -10,13 +10,10 @@
 import homePage from "./components/homePage.vue";
 import navBar from "./components/navBar.vue";
 import aboutPage from "./components/aboutPage.vue";
-<<<<<<< HEAD
-=======
 import projectPage from "./components/projectPage.vue";
 import contactPage from "./components/contactPage.vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
->>>>>>> responsive2.1
 
 export default {
   name: "App",
