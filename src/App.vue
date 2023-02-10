@@ -3,6 +3,8 @@
     <navBar />
     <homePage />
     <aboutPage />
+    <projectPage />
+    <contactPage />
   </div>
 </template>
 
@@ -18,10 +20,11 @@ import "aos/dist/aos.css";
 export default {
   name: "App",
   components: {
-    // HelloWorld,
     homePage,
     navBar,
     aboutPage,
+    projectPage,
+    contactPage,
   },
 };
 
