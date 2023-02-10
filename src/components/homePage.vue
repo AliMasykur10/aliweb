@@ -48,6 +48,9 @@ h1 {
     width: 70vw;
     font-size: 3em;
   }
+  img#mylogo {
+    width: 40vw;
+  }
 }
 
 @media only screen and (max-width: 767px) {
