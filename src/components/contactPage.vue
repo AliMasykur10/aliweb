@@ -8,11 +8,7 @@
         </a>
       </div>
       <div class="card" data-aos="zoom-out" data-aos-delay="100">
-<<<<<<< HEAD
-        <h2>Facebook</h2>clear
-=======
         <h2>Facebook</h2>
->>>>>>> responsive2.1
         <a href="https://www.facebook.com/alyfounder.messy/" target="_blank" rel="noopener noreferrer">
           <img src="../assets/facebook.svg" alt="facebook" />
         </a>
@@ -59,18 +55,12 @@ export default {
 
 <style>
 .contact-page {
-<<<<<<< HEAD
-  width: 100v;
-=======
   width: 100vw;
->>>>>>> responsive2.1
   height: 100vh;
   background-color: var(--bgcolor2);
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-=======
 }
 
 .social-media {
@@ -173,7 +163,6 @@ export default {
   .social-media h2 {
     font-size: 0.7em;
   }
->>>>>>> responsive2.1
 }
 
 .social-media {

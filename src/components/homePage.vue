@@ -1,5 +1,4 @@
 <template>
-
   <div class="homepage" id="home-page">
     <img src="../assets/logo-baruku.jpg" alt="" id="mylogo" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
     <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800" v-rellax="{ speed: 2 }">Welcome to My Personal Website</h1>
@@ -22,8 +21,8 @@ export default {
   align-items: center;
 }
 
-img {
-  width: 250px;
+img#mylogo {
+  width: 350px;
   border-radius: 50%;
   margin-bottom: 2rem;
 }
