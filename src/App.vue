@@ -34,6 +34,7 @@ AOS.init();
 <style>
 :root {
   --bgcolor1: #373339;
+  --bgcolorTransparant: #3733399b;
   --bgcolor2: #49444b;
   --fontcolor: white;
 }

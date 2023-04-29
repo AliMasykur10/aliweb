@@ -32,8 +32,8 @@ export default {
   width: inherit;
   top: 0;
   left: 0;
-  height: 100%;
-  background-image: linear-gradient(var(--bgcolor1), rgba(255, 0, 0, 0));
+  height: 120%;
+  background-image: linear-gradient(var(--bgcolor1), var(--bgcolorTransparant), rgba(0, 0, 0, 0));
   position: absolute;
   z-index: -1;
 }
