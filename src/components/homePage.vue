@@ -13,7 +13,7 @@ export default {
 
 <style>
 .homepage {
-  width: 100v;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,10 @@ img#mylogo {
   width: 350px;
   border-radius: 50%;
   margin-bottom: 2rem;
+}
+img#mylogo:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 h1 {

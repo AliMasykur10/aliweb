@@ -16,6 +16,36 @@ export default {
 </script>
 
 <style>
+.navbar {
+  width: 100vw;
+  padding: 1rem;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.navbar::before {
+  content: "";
+  width: inherit;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-image: linear-gradient(var(--bgcolor1), rgba(255, 0, 0, 0));
+  position: absolute;
+  z-index: -1;
+}
+
+.navbar ul {
+  display: flex;
+  background-color: transparent;
+  padding: 2rem;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
 .navbar li {
   list-style: none;
   margin-left: 3rem;
@@ -31,26 +61,6 @@ export default {
   color: var(--bgcolor1);
   background-color: var(--fontcolor);
   transition: 0.5s;
-}
-
-.navbar {
-  width: 100vw;
-  padding: 1rem;
-  font-family: sans-serif;
-  font-size: 1.3rem;
-  font-weight: 500;
-  letter-spacing: 2px;
-  position: fixed;
-  top: 0;
-  /* background-color: var(--bgcolor1); */
-}
-
-.navbar ul {
-  display: flex;
-  background-color: transparent;
-  padding: 2rem;
-  justify-content: end;
-  margin-right: 1rem;
 }
 
 @media only screen and (max-width: 992px) {
