@@ -1,29 +1,6 @@
 # Ali Masykur Personal Website
+Website ini berisi tentang penjelasan tentang saya, project yang telah saya buat dan sosial media yang saya miliki.
+saya membuat project ini menggunakan framework Vue.js. Saya juga menambahkan efek scrolling untuk memperindah website probadi saya ini. efek scrolling pada website ini saya menggunakan library external yaitu [AOS](https://michalsnik.github.io/aos/). 
 
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### The Web Result
-
-See [Ali Masykur](https://alimasykur.com/).
+### Hasil Website
+See [Ali Masykur](https://ali-masykur.web.app/).
