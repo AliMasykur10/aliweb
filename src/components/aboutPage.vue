@@ -7,9 +7,9 @@
         My name is Ali, I'am a web developer and graphic designer, i possess a unique set of skills that allow me to create visually stunning websites that not only look great but also function seamlessly. I technical knowledge and
         expertise in programming languages such as HTML, CSS, JavaScript, React.js and Vue.js enable me to build responsive and user-friendly websites that are optimized for both desktop and mobile devices.
       </p>
-      <a href="#" target="_blank">
+      <!-- <a href="#" target="_blank">
         <input type="button" id="cv-download" value="DOWNLOAD CV" />
-      </a>
+      </a> -->
     </div>
   </div>
 </template>
