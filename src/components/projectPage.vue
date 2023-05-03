@@ -2,7 +2,7 @@
   <div class="project-page" id="project-page">
     <div class="list-project" data-aos="fade-right">
       <h3>Personal Portfolio</h3>
-      <a href="#" target="_blank">
+      <a href="https://ali-masykur.web.app/" target="_blank">
         <div class="content">
           <img src="../assets/logo-baruku.jpg" alt="" id="logo-baruku" data-aos="fade-up" />
         </div>
@@ -10,18 +10,18 @@
     </div>
     <div class="list-project" data-aos="fade-right" data-aos-delay="100">
       <h3>Ali Movie</h3>
-      <a href="#" target="_blank">
+      <a href="https://alimovie.web.app/" target="_blank">
         <div class="content">
           <img src="../assets/alimovie.svg" alt="" id="alimovie" data-aos="fade-up" />
         </div>
       </a>
     </div>
-    <div class="list-project" data-aos="fade-right" data-aos-delay="200">
+    <!-- <div class="list-project" data-aos="fade-right" data-aos-delay="200">
       <h3>Web Portofolio</h3>
       <a href="#" target="_blank">
         <div class="content"></div>
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 
